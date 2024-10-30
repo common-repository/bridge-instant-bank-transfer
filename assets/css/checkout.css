@@ -1,0 +1,267 @@
+#payment .payment_methods .payment_method_bridgeapi-io img {
+	float: none;
+	max-height: 30px;
+}
+
+#payment .payment_methods .bridge-io-bottom-txt {
+	margin-top: 15px;
+}
+
+.bridge-io {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0 10px 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.bridge-io-error {
+	background-color: #ffb5ab;
+	padding: 5px 10px;
+	font-size: small;
+	border-radius: 5px;
+	display: none;
+}
+
+.bridge-io-banks {
+	display: none;
+	margin-top: 20px;
+	background-color: #ffffff;
+	padding: 5px 5px 0;
+}
+
+
+#bridgeapi-io-banks {
+	overflow-y: auto;
+	max-height: 255px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: start;
+}
+
+#bridge-io-search {
+	text-align: center;
+	padding: 0 0 10px;
+}
+
+#bridge-io-search input {
+	display: inline-block;
+	border: 2px solid #ebf4ff;
+	border-radius: 5px;
+	font-size: small;
+	color: #999;
+	width: 100%;
+	min-height: 35px;
+	height: inherit;
+	padding: 0 33px 0 10px;
+	background: url(../images/magnifying-glass.png) calc(100% - 8px) center no-repeat;
+	background-size: 16px auto;
+	box-sizing: border-box;
+}
+
+#bridge-io-search input:focus {
+	border:  inherit;
+	background-color: inherit;
+	/*outline: none;*/
+}
+
+.bridge-io-bank {
+	width: calc(50% - 10px);
+	display: flex;
+	font-size: small;
+	box-shadow: 0 0 5px 0 #ccc;
+	padding: 5px;
+	margin: 5px;
+	text-align: left;
+	font-weight: bold;
+	height: 75px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #28a0ce12;
+	transition: background-color 0.5s;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.bridge-io-banks.smallContainer .bridge-io-bank {
+	width: calc(100% - 10px);
+}
+
+.bridge-io-bank:hover {
+	background-color: #28a0ce29;
+}
+
+.bridge-io-bank.selected {
+	box-shadow: none;
+	transition: background-color 0.5s;
+	border: 1px solid #061521;
+	background: url("../images/checked.png") 98% 59px no-repeat #28a0ce29;
+	background-size: 12px;
+}
+
+.bridge-io-bank img {
+	width: 60px;
+}
+
+
+.payment_box.payment_method_bridgeapi-io .bridge-io-bank p {
+	margin: 0;
+	width: calc(100% - 70px);
+	font-size: 11px;
+}
+
+.bridge-io-spinner {
+	width: 40px;
+	height: 40px;
+	margin: 100px auto;
+	background-color: #333;
+	border-radius: 100%;  
+	-webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+	animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+	0% { -webkit-transform: scale(0) }
+	100% {
+		-webkit-transform: scale(1.0);
+		opacity: 0;
+	}
+}
+
+@keyframes sk-scaleout {
+	0% { 
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	} 100% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+		opacity: 0;
+	}
+}
+
+.payment_box.payment_method_bridgeapi-io {
+	padding-left: 10px !important;
+	padding: 10px;
+	position: relative;
+}
+
+.payment_box.payment_method_bridgeapi-io p {
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit;
+}
+.payment_box.payment_method_bridgeapi-io p > img {
+	max-width: 90px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#bridge-io-collapseContainer {
+	margin: 0 auto 55px auto;
+	max-width: 480px
+}
+#bridge-io-toggleCollapse {
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#bridge-io-toggleCollapse .bridge-io-step {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+#bridge-io-toggleCollapse img {
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: middle;
+	max-width: 15px;
+	transition: all .2s ease-in;
+	margin-top: 0;
+}
+#bridge-io-toggleCollapse.active img {
+	transform: rotate(180deg);
+}
+
+#bridge-io-collapse {
+	transition: height .2s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.bridge-io-step {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+}
+.bridge-io-step span {
+	margin: 0 0 0 5px;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 10px;
+	font-weight: bold;
+	width: 250%;
+	text-align: center;
+}
+#bridge-io-collapse.active {
+	/*height: 130px;*/
+}
+
+#bridge-io-collapse img {
+	max-width: 35px;
+}
+#bridge-io-collapse span.bridge-io-arrow {
+	display: block;
+	flex: 1 1 auto;
+	height: 20px;
+	background: url("../images/arrow-right.png") center no-repeat;
+	background-size: 40px auto;
+}
+
+@media (max-width: 900px) {
+	#bridge-io-collapse img {
+		max-width: 40px;
+	}
+
+	#bridge-io-collapseContainer {
+		padding: 0 10px 0 10px;
+	}
+}
+
+@media (max-width: 475px) {
+	.bridge-io-bank {
+		width: 100%;
+	}
+}
+@media (max-width: 400px) {
+	#bridge-io-collapse span.bridge-io-arrow {
+		background-position: right center;
+	}
+}
+
+.seeMore {
+	color: #061521;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+.seeMore img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+}

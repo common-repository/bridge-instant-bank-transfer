@@ -1,0 +1,27 @@
+{
+    "name": "bridgeapi/bridgeapi-io",
+    "description": "Bridge API Payment method integration for WooCommerce",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "BridgeApi\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James John",
+            "email": "j.john@thecodingmachine.com"
+        }
+    ],
+    "require-dev": {
+        "symplify/easy-coding-standard": "^10.0"
+    },
+    "scripts": {
+        "check-cs": "vendor/bin/ecs check --ansi includes/ templates/",
+        "fix-cs": "vendor/bin/ecs check --fix --ansi includes/ templates/"
+    },
+    "require": {
+        "thecodingmachine/safe": "v1.3.3",
+        "ext-openssl": "*"
+    }
+}

@@ -1,0 +1,428 @@
+# Copyright (C) 2022 Bridge
+# This file is distributed under the same license as the Bridge - Instant Bank Transfer plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bridge - Instant Bank Transfer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bridge-payment\n"
+"POT-Creation-Date: 2024-01-23 10:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: bridgeapi-io\n"
+
+#. Plugin Name of the plugin
+msgid "Bridge - Instant Bank Transfer"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enable your customer to shop in 1 click: simple, 100% secured and without amount limit"
+msgstr ""
+
+#. Author of the plugin
+msgid "Bridge"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://bridgeapi.io/"
+msgstr ""
+
+#: includes/Admin.php:68
+msgid "Please provide credentials"
+msgstr ""
+
+#: includes/Admin.php:69
+msgid "Webhook Configured: "
+msgstr ""
+
+#: includes/Ajax.php:74
+msgid "Error connecting to API server: %s"
+msgstr ""
+
+#: includes/Ajax.php:76
+msgid "API Error: %s"
+msgstr ""
+
+#: includes/Bridge.php:86
+msgid "Please finalize the plugin configuration"
+msgstr ""
+
+#: includes/Bridge.php:115 includes/Bridge.php:118 includes/Bridge.php:123
+msgid "Bridge Error: %s"
+msgstr ""
+
+#: includes/Bridge.php:120
+msgid "Unknown Bridge API response"
+msgstr ""
+
+#: includes/BridgeApi.php:160
+msgid "BridgeAPI.io plugin depends on WooCommerce to be installed. Kindly setup WooCommerce"
+msgstr ""
+
+#: includes/BridgeApi.php:168
+msgid "BridgeAPI.io plugin depends on OpenSSL PHP extension. Kindly enable this or contact your web host"
+msgstr ""
+
+#: includes/BridgeApi.php:339
+msgid "Webhook received"
+msgstr ""
+
+#: includes/BridgeApi.php:350
+msgid "Order updated through webhook"
+msgstr ""
+
+#: includes/BridgeApi.php:357
+msgid "Webhook verification failed: %s"
+msgstr ""
+
+#: includes/BridgeApi.php:361
+msgid "Webhook verification connection error: %s"
+msgstr ""
+
+#: includes/BridgeApi.php:365
+msgid "Webhook failed: %s"
+msgstr ""
+
+#: includes/BridgeApi.php:409
+msgid "Error while fetching payment request ID:"
+msgstr ""
+
+#: includes/BridgeApi.php:423
+msgid "Unauthorized access has been detected. Trace:"
+msgstr ""
+
+#: includes/BridgeApi.php:434
+msgid "Unauthorized access"
+msgstr ""
+
+#: includes/BridgeGateway.php:54
+msgid "Bank Transfer by Bridge"
+msgstr ""
+
+#: includes/BridgeGateway.php:55
+msgid "Bridge Instant Transfer Payment Plug-in for WooCommerce"
+msgstr ""
+
+#: includes/BridgeGateway.php:56
+msgid "Bank payment"
+msgstr ""
+
+#: includes/BridgeGateway.php:57
+msgid "Pay by bank transfer with Bridge. Settle your order by validating the transfer directly from your bank: simple, 100% secure and without credit card."
+msgstr ""
+
+#: includes/BridgeGateway.php:58
+msgid "Payment solution authorized by"
+msgstr ""
+
+#: includes/BridgeGateway.php:59
+msgid "How does it works?"
+msgstr ""
+
+#: includes/BridgeGateway.php:113
+msgid "Bridge payment only accepts Euro (EUR)"
+msgstr ""
+
+#: includes/BridgeGateway.php:118
+msgid "The website does not seem to be using HTTPS (SSL/TLS) encryption for communications, you must use it to enable Bridge Payment in production mode"
+msgstr ""
+
+#: includes/BridgeGateway.php:151
+msgid "Instant Transfer"
+msgstr ""
+
+#: includes/BridgeGateway.php:188
+msgid "Credentials invalid or not supplied"
+msgstr ""
+
+#: includes/BridgeGateway.php:218
+msgid "Credentials invalid or not supplied: %s"
+msgstr ""
+
+#: includes/BridgeGateway.php:331
+msgid "Error decrypting %s key: %s"
+msgstr ""
+
+#: includes/BridgeGateway.php:354
+msgid "Error encrypting %s key: %s"
+msgstr ""
+
+#: includes/BridgeGateway.php:445
+msgid "Sandbox Webhook Status"
+msgstr ""
+
+#: includes/BridgeGateway.php:449 includes/BridgeGateway.php:462
+msgid "Check the webhook configuration"
+msgstr ""
+
+#: includes/BridgeGateway.php:451 includes/BridgeGateway.php:464
+msgid "You must add this callback url %s to your Bridge Dashboard > Webhooks > Add a webhook > And select this one : %s. You can name the webhook as you wish."
+msgstr ""
+
+#: includes/BridgeGateway.php:458
+msgid "Production Webhook Status"
+msgstr ""
+
+#: includes/BridgeGateway.php:472
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/BridgeGateway.php:474
+msgid "Enable this payment gateway"
+msgstr ""
+
+#: includes/BridgeGateway.php:475
+msgid "Enable this module to include the Bridge Instant Payment."
+msgstr ""
+
+#: includes/BridgeGateway.php:479
+msgid "Bridge Logo"
+msgstr ""
+
+#: includes/BridgeGateway.php:481
+msgid "Enable Bridge Logo"
+msgstr ""
+
+#: includes/BridgeGateway.php:483
+msgid "Show Bridge logo at checkout"
+msgstr ""
+
+#: includes/BridgeGateway.php:486
+msgid "Environment"
+msgstr ""
+
+#: includes/BridgeGateway.php:488
+msgid "Enable test mode (sandbox)"
+msgstr ""
+
+#: includes/BridgeGateway.php:489
+msgid "Switch to production mode to start accepting real payments. Conditions to switch to production mode: HTTPS,  production Client ID & Client Secret are valid, webhooks configured and tested. "
+msgstr ""
+
+#: includes/BridgeGateway.php:495
+msgid "Sandbox environment"
+msgstr ""
+
+#: includes/BridgeGateway.php:498
+msgid "Sandbox (test) Client ID"
+msgstr ""
+
+#: includes/BridgeGateway.php:500 includes/BridgeGateway.php:530
+msgid "This is the Client ID provided to you when creating an application on Bridge."
+msgstr ""
+
+#: includes/BridgeGateway.php:500 includes/BridgeGateway.php:505
+#: includes/BridgeGateway.php:530 includes/BridgeGateway.php:535
+msgid "Click here to create an account"
+msgstr ""
+
+#: includes/BridgeGateway.php:503
+msgid "Sandbox (test) Client Secret"
+msgstr ""
+
+#: includes/BridgeGateway.php:505 includes/BridgeGateway.php:535
+msgid "This is the Client Secret provided to you when creating an application on Bridge."
+msgstr ""
+
+#: includes/BridgeGateway.php:508
+msgid "Sandbox Webhook Secret"
+msgstr ""
+
+#: includes/BridgeGateway.php:512 includes/BridgeGateway.php:516
+msgid "Check test (sandbox) credentials"
+msgstr ""
+
+#: includes/BridgeGateway.php:518
+msgid "Click to test sandbox credentials"
+msgstr ""
+
+#: includes/BridgeGateway.php:524
+msgid "Production environment"
+msgstr ""
+
+#: includes/BridgeGateway.php:527
+msgid "Production Client ID"
+msgstr ""
+
+#: includes/BridgeGateway.php:533
+msgid "Production Client Secret"
+msgstr ""
+
+#: includes/BridgeGateway.php:538
+msgid "Production Webhook Secret"
+msgstr ""
+
+#: includes/BridgeGateway.php:542 includes/BridgeGateway.php:547
+msgid "Check production credentials"
+msgstr ""
+
+#: includes/BridgeGateway.php:545
+msgid "Click to test production credentials"
+msgstr ""
+
+#: includes/BridgeGateway.php:576
+msgid "Payment error: Please select a bank to proceed"
+msgstr ""
+
+#: includes/BridgeGateway.php:587
+msgid "Connection error: %s"
+msgstr ""
+
+#: includes/BridgeGateway.php:589
+msgid "Invalid bank selected: %s"
+msgstr ""
+
+#: includes/BridgeGateway.php:630
+msgid "Last payment has not been finished, customer initiate a new one. Bridge payment initiated (Payment ID: {payment_id})"
+msgstr ""
+
+#: includes/BridgeGateway.php:632
+msgid "Bridge payment initiated (Payment ID: {payment_id})"
+msgstr ""
+
+#: includes/BridgeGateway.php:655
+msgid "WC Order not found"
+msgstr ""
+
+#: includes/Utils.php:43
+msgid "Error determining key length"
+msgstr ""
+
+#: includes/Utils.php:110
+msgid "Encryption key already exists"
+msgstr ""
+
+#: includes/Utils.php:115
+msgid "openssl_cipher_iv_length: Unable to determin cipher length"
+msgstr ""
+
+#: includes/Utils.php:134
+msgid "Error. Unable to encrypt data"
+msgstr ""
+
+#: includes/Utils.php:145
+msgid "Encryption key does not exist"
+msgstr ""
+
+#: includes/Utils.php:152
+msgid "openssl_decrypt failed"
+msgstr ""
+
+#: includes/Utils.php:173 includes/Utils.php:192
+msgid "Order ID does not exist"
+msgstr ""
+
+#: includes/Utils.php:355
+msgid "Bridge payment initiated (Payment ID : {payment_id})"
+msgstr ""
+
+#: includes/Utils.php:359
+msgid "Bridge payment pending (Payment ID : {payment_id})"
+msgstr ""
+
+#: includes/Utils.php:362
+msgid "Bridge payment succeeded (Payment ID : {payment_id})"
+msgstr ""
+
+#: includes/Utils.php:365
+msgid "Bridge payment canceled (Payment ID : {payment_id})"
+msgstr ""
+
+#: includes/Utils.php:368
+msgid "Bridge payment rejected (Payment ID : {payment_id})"
+msgstr ""
+
+#: includes/Utils.php:371
+msgid "Unknown payment status: %s"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:7
+msgid "Accept your first payments in 10 minutes"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:10
+msgid "Test Bridge"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:14
+msgid "Create an account"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:17
+msgid "Create a sandbox application"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:18
+msgid "Enable test mode below"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:19
+msgid "Plug-in sandbox client ID and client Secret below"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:22
+msgid "Test Payments"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:26
+msgid "Go to production"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:29
+msgid "Schedule an appointment %s"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:29
+#: templates/admin/partial/subheader.php:35
+#: templates/admin/partial/subheader.php:38
+#: templates/admin/partial/subheader.php:41
+msgid "here"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:32
+msgid "Need help?"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:35
+msgid "On the solution, the coverage? Please visit our help center %s"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:38
+msgid "Setting up the module? Contact our delivery team %s"
+msgstr ""
+
+#: templates/admin/partial/subheader.php:41
+msgid "Technical issues in production? Contact our Care team %s"
+msgstr ""
+
+#: templates/checkout/banks.php:9
+msgid "Select your Bank"
+msgstr ""
+
+#: templates/checkout/banks.php:14
+msgid "Authenticate"
+msgstr ""
+
+#: templates/checkout/banks.php:19
+msgid "Validate"
+msgstr ""
+
+#: templates/checkout/banks.php:24
+msgid "Done!"
+msgstr ""
+
+#: templates/checkout/banks.php:34
+msgid "Search a bank"
+msgstr ""
+
+#: templates/checkout/banks.php:39
+msgid "Scroll down to see more banks"
+msgstr ""
+
+#: templates/checkout/banks.php:44
+msgid "By continuing, you agree to the <a href='https://pay.bridgeapi.io/pdf/cgs-en.pdf' target='_blank'>ToS</a> and the <a href='https://pay.bridgeapi.io/pdf/information_statement_EN.pdf' target='_blank'>information statement</a> of Bridge, a licensed payment institution."
+msgstr ""
